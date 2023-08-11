@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(/Content/Fonts/gilroy/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: Gilroy_Black;
+    src: url(/Content/Fonts/gilroy/Gilroy-Black.ttf);
+}
+@font-face {
+    font-family: Gilroy_Bold;
+    src: url(/Content/Fonts/gilroy/Gilroy-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Gilroy;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 174px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    font-weight: bold;
+    font-size: 16px;   
+    margin-right: 80px
+}
+
+ul button {
+    background-color: #75BF7A;
+    width: 182px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    font-size: 22px;  
+    font-weight: bold;     
+    color: #ffffff;
+}
+
+header img {
+    width: 180px;
+    height: 51px;
+    margin-left: 80px;
+}
+
+.sec01 {
+    margin: 80px;
+}
+
+.sec_left {
+    width: 550px;
+}
+
+.sec01 > .sec_left > h1 {
+    font-family: Gilroy_Bold;
+    font-size: 60px;
+}
+
+.sec01 > .sec_left > p {
+    font-family: Gilroy;
+    font-size: 24px;
+    color: #9E9DA2;
+    margin: 10px;
+}
+
+.section_1_button {
+    background-color: #000000;
+    width: 260px;
+    height: 67px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.section_1_button > p {
+    font-size: 24px;
+    font-family: Gilroy_bold;
+}
+
+
+.section_1_leftbuttons {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;   
+}
+
+.sec01 {
+    display: flex;
+    column-gap: 200px;
+}
+
+.sec01 > .sec_right > img {
+    height: 460px;
+}
+
+.ApplyToDrive > .box { 
+    background-color: #75BF7A;
+    width: 100%;
+    height: 166px;
+}
+
+.ApplyToDrive > .box > p {
+    font-family: Gilroy_bold;
+    font-size: 24px;
+    color: #ffffff;
+    width: 246px;
+    height: 56px;
+}
